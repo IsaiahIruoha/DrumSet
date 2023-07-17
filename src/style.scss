@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo|Rubik:400,400i,700");
+
+$serif: "Arvo", serif;
+$sans: "Rubik", sans-serif;
+$white: #efefef;
+$grey: #d5d5d3;
+$dark: #5a5a5a;
+$primary: #0d6efd;
+
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+#drum-machine {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: $white;
+}
+
+#app-box {
+	width: 100%;
+	height: 90vh;
+}
+
+.controlBox {
+	background-color: $grey;
+	border-radius: 3px;
+}
+
+.drum-pad {
+	width: 80%;
+	height: 6rem;
+	font-family: $sans;
+	font-size: 3rem;
+}
+
+.buttonBox {
+	background-color: $grey;
+	border-radius: 3px;
+}
+
+.outputScreen {
+	display: flex;
+	height: 8rem;
+	width: 90%;
+	background-color: $dark;
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+	p {
+		color: $white;
+		font-family: $sans;
+		font-size: 2rem;
+		margin-top: 0.75rem;
+	}
+}
+
+.form-check {
+	transform: scale(1.5);
+	label {
+		color: $dark;
+		font-family: $sans;
+	}
+}
+
+.volume {
+	color: $dark;
+	margin-bottom: 0.5rem;
+}
+
+svg {
+	fill: $dark;
+	margin-top: 0.5rem;
+}

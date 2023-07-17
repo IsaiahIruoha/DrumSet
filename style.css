@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo|Rubik:400,400i,700");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+#drum-machine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #efefef;
+}
+
+#app-box {
+  width: 100%;
+  height: 90vh;
+}
+
+.controlBox {
+  background-color: #d5d5d3;
+  border-radius: 3px;
+}
+
+.drum-pad {
+  width: 80%;
+  height: 6rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 3rem;
+}
+
+.buttonBox {
+  background-color: #d5d5d3;
+  border-radius: 3px;
+}
+
+.outputScreen {
+  display: flex;
+  height: 8rem;
+  width: 90%;
+  background-color: #5a5a5a;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.outputScreen p {
+  color: #efefef;
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+  margin-top: 0.75rem;
+}
+
+.form-check {
+  transform: scale(1.5);
+}
+.form-check label {
+  color: #5a5a5a;
+  font-family: "Rubik", sans-serif;
+}
+
+.volume {
+  color: #5a5a5a;
+  margin-bottom: 0.5rem;
+}
+
+svg {
+  fill: #5a5a5a;
+  margin-top: 0.5rem;
+}
